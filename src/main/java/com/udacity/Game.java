@@ -151,7 +151,7 @@ public class Game {
     public String checkGameWinner(char [][]grid){
         String result = "None";
 
-/*        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < 3; i++) {
 
             if ((grid[i][0] == 'x' && grid[i][1] == 'x' && grid[i][2] == 'x') ||
                     (grid[0][i] == 'x' && grid[1][i] == 'x' && grid[2][i] == 'x') ||
@@ -181,7 +181,7 @@ public class Game {
                     result = "Tie";
                 }
             }
-        }*/
+        }
         return result;
     }
 
