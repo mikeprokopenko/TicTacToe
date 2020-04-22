@@ -151,37 +151,37 @@ public class Game {
     public String checkGameWinner(char [][]grid){
         String result = "None";
 
-//        for (int i = 0; i < 3; i++) {
-//
-//            if ((grid[i][0] == 'x' && grid[i][1] == 'x' && grid[i][2] == 'x') ||
-//                    (grid[0][i] == 'x' && grid[1][i] == 'x' && grid[2][i] == 'x') ||
-//                    (grid[0][0] == 'x' && grid[1][1] == 'x' && grid[2][2] == 'x') ||
-//                    (grid[0][2] == 'x' && grid[1][1] == 'x' && grid[2][0] == 'x')) {
-//                result = "X wins";
-//                break;
-//
-//            } else if ((grid[i][0] == 'o' && grid[i][1] == 'o' && grid[i][2] == 'o') ||
-//                    (grid[0][i] == 'o' && grid[1][i] == 'o' && grid[2][i] == 'o') ||
-//                    (grid[0][0] == 'o' && grid[1][1] == 'o' && grid[2][2] == 'o') ||
-//                    (grid[0][2] == 'o' && grid[1][1] == 'o' && grid[2][0] == 'o')) {
-//                result = "O wins";
-//                break;
-//            }
-//            else {
-//                boolean isTie = true;
-//                for (int j = 0; j < 3; j++) {
-//                    for (int k = 0; k < 3; k++) {
-//                        if (grid[j][k] == '-') {
-//                            isTie = false;
-//                            break;
-//                        }
-//                    }
-//                }
-//                if (isTie){
-//                    result = "Tie";
-//                }
-//            }
-//        }
+/*        for (int i = 0; i < 3; i++) {
+
+            if ((grid[i][0] == 'x' && grid[i][1] == 'x' && grid[i][2] == 'x') ||
+                    (grid[0][i] == 'x' && grid[1][i] == 'x' && grid[2][i] == 'x') ||
+                    (grid[0][0] == 'x' && grid[1][1] == 'x' && grid[2][2] == 'x') ||
+                    (grid[0][2] == 'x' && grid[1][1] == 'x' && grid[2][0] == 'x')) {
+                result = "X wins";
+                break;
+
+            } else if ((grid[i][0] == 'o' && grid[i][1] == 'o' && grid[i][2] == 'o') ||
+                    (grid[0][i] == 'o' && grid[1][i] == 'o' && grid[2][i] == 'o') ||
+                    (grid[0][0] == 'o' && grid[1][1] == 'o' && grid[2][2] == 'o') ||
+                    (grid[0][2] == 'o' && grid[1][1] == 'o' && grid[2][0] == 'o')) {
+                result = "O wins";
+                break;
+            }
+            else {
+                boolean isTie = true;
+                for (int j = 0; j < 3; j++) {
+                    for (int k = 0; k < 3; k++) {
+                        if (grid[j][k] == '-') {
+                            isTie = false;
+                            break;
+                        }
+                    }
+                }
+                if (isTie){
+                    result = "Tie";
+                }
+            }
+        }*/
         return result;
     }
 
